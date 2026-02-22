@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────
+# Neuron-Level Attention Analysis — Python Dependencies
+# ─────────────────────────────────────────────────────────────
+# Install: pip install -r requirements.txt
+
+# Core ML
+torch>=2.1.0
+transformers>=4.38.0
+numpy>=1.24.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Interpretability (optional but recommended)
+# Provides HookedTransformer, activation patching, logit lens
+transformer-lens>=1.17.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Utilities
+tqdm>=4.66.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Optional: for Llama-2 / gated models
+# sentencepiece>=0.1.99
+# accelerate>=0.24.0
+# bitsandbytes>=0.41.0   # for 8-bit quantisation on GPU
